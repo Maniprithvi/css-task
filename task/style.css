@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    justify-content: center;
+   
+}
+.item2 .box,  .item .box{
+    height:100px;
+    background-color: rgb(145, 93, 240);
+    border-radius: 15px;
+}
+.container{
+    width: 80vw;
+    padding: 150px;
+    height: 100vh;
+    background-color:rgb(78, 73, 66);
+}
+
+.item{
+    display:grid;
+    grid-template-columns:100px 100px;
+    justify-content: center;
+    align-items: center;
+}
+.item2{
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.item2 .box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    width: 38px;
+    height:38px;
+    background-color:rgb(78, 73, 66);
+}
+
+.box2{
+    transform: rotate(-44deg);
+}
